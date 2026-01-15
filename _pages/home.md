@@ -74,7 +74,7 @@ peer-review:
 ## Latest contributors
 
 <div class="entries-grid">
-{% for aperson in new_ppl limit:4 %}
+{% for aperson in new_ppl limit:3 %}
     {% include people-grid.html  %}
 {% endfor %}
 </div>
